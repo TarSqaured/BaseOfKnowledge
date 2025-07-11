@@ -1,0 +1,18 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MkDocs build folder (just in case)
+site/
+EOF
+
+git add .gitignore
+git commit -m "chore: add .gitignore for Python, venv, and MkDocs"
