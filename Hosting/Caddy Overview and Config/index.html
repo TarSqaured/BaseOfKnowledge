@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../../Getting-Started/Welcome/">
       
       
-        <link rel="next" href="../../Hosting/Caddy%20Overview%20and%20Config/">
+        <link rel="next" href="../Commands_Reference/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Welcome - Base of Knowledge</title>
+        <title>Caddy Overview and Config - Base of Knowledge</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome" class="md-skip">
+        <a href="#what-is-caddy" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome
+              Caddy Overview and Config
             
           </span>
         </div>
@@ -213,20 +213,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -242,7 +242,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Getting Started
@@ -253,19 +253,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Welcome/" class="md-nav__link">
         
   
   
@@ -276,7 +267,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -293,20 +283,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -322,7 +312,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Hosting
@@ -333,10 +323,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Hosting/Caddy%20Overview%20and%20Config/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Caddy Overview and Config
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -347,6 +357,114 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-caddy" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Caddy?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-caddy-on-debianubuntu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing Caddy on Debian/Ubuntu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-caddyfile-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Caddyfile Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-directives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Directives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-reverse-proxy-to-local-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Reverse Proxy to Local App
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-the-caddy-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing the Caddy Service
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validating-formatting-the-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validating &amp; Formatting the Config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logs-and-debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logs and Debugging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further Reading
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -359,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Hosting/Commands_Reference/" class="md-nav__link">
+      <a href="../Commands_Reference/" class="md-nav__link">
         
   
   
@@ -382,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Hosting/Domains%20and%20DNS/" class="md-nav__link">
+      <a href="../Domains%20and%20DNS/" class="md-nav__link">
         
   
   
@@ -405,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Hosting/Troubleshooting%20and%20Alternatives/" class="md-nav__link">
+      <a href="../Troubleshooting%20and%20Alternatives/" class="md-nav__link">
         
   
   
@@ -445,8 +563,104 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-caddy" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Caddy?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-caddy-on-debianubuntu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing Caddy on Debian/Ubuntu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-caddyfile-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Caddyfile Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-directives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Directives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-reverse-proxy-to-local-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Reverse Proxy to Local App
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-the-caddy-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing the Caddy Service
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validating-formatting-the-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validating &amp; Formatting the Config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logs-and-debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logs and Debugging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further Reading
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -462,9 +676,172 @@
 
 
 
-<h1 id="welcome">Welcome</h1>
-<p>This is your “Getting Started” guide.<br />
-Explain the purpose of this Base of Knowledge here.</p>
+  <h1>Caddy Overview and Config</h1>
+
+<h2 id="what-is-caddy">What Is Caddy?</h2>
+<p>Caddy is a modern web server and reverse proxy that:</p>
+<ul>
+<li>
+<p>🔒 Automatically obtains and renews TLS certificates via Let’s Encrypt</p>
+</li>
+<li>
+<p>⚙️ Serves HTTP (port 80) and HTTPS (port 443)</p>
+</li>
+<li>
+<p>🔄 Routes traffic to local applications or static files based on domain</p>
+</li>
+<li>
+<p>📝 Uses a single <strong>Caddyfile</strong> for all configuration</p>
+</li>
+</ul>
+<hr />
+<h2 id="installing-caddy-on-debianubuntu">Installing Caddy on Debian/Ubuntu</h2>
+<pre><code>sudo apt update
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https \
+  curl gnupg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' \
+  | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' \
+  | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+sudo apt update
+sudo apt install -y caddy
+</code></pre>
+<ul>
+<li>
+<p>Installs Caddy server and systemd service</p>
+</li>
+<li>
+<p>Enables automatic updates from the Caddy repository</p>
+</li>
+</ul>
+<hr />
+<h2 id="basic-caddyfile-structure">Basic Caddyfile Structure</h2>
+<p>Location: <code>/etc/caddy/Caddyfile</code></p>
+<pre><code>example.tyshub.xyz {
+  respond &quot;🚀 It works!&quot; 200
+}
+</code></pre>
+<ul>
+<li>
+<p><strong>Header</strong>: domain name</p>
+</li>
+<li>
+<p><strong>Body</strong>: site-specific directives (e.g., <code>respond</code>, <code>reverse_proxy</code>, <code>file_server</code>)</p>
+</li>
+</ul>
+<hr />
+<h2 id="common-directives">Common Directives</h2>
+<table>
+<thead>
+<tr>
+<th>Directive</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>respond</code></td>
+<td>Return static text and HTTP status</td>
+</tr>
+<tr>
+<td><code>reverse_proxy</code></td>
+<td>Forward requests to a backend server</td>
+</tr>
+<tr>
+<td><code>file_server</code></td>
+<td>Serve static files from a directory</td>
+</tr>
+<tr>
+<td><code>encode</code></td>
+<td>Enable compression (gzip, zstd)</td>
+</tr>
+<tr>
+<td><code>tls</code></td>
+<td>Specify custom certificate paths</td>
+</tr>
+<tr>
+<td><code>log</code></td>
+<td>Configure access/error logging</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="example-reverse-proxy-to-local-app">Example: Reverse Proxy to Local App</h2>
+<pre><code>finance.tyshub.xyz {
+  encode gzip zstd
+  reverse_proxy localhost:3000
+}
+</code></pre>
+<ul>
+<li>
+<p>Compresses responses</p>
+</li>
+<li>
+<p>Forwards traffic to an app on port 3000</p>
+</li>
+</ul>
+<hr />
+<h2 id="managing-the-caddy-service">Managing the Caddy Service</h2>
+<pre><code># Start and enable at boot
+sudo systemctl enable --now caddy
+
+# Reload config after editing Caddyfile
+sudo systemctl reload caddy
+
+# Restart (for core changes)
+sudo systemctl restart caddy
+
+# Check status
+sudo systemctl status caddy --no-pager
+</code></pre>
+<hr />
+<h2 id="validating-formatting-the-config">Validating &amp; Formatting the Config</h2>
+<pre><code># Check syntax
+sudo caddy validate --config /etc/caddy/Caddyfile
+
+# Auto-format for readability
+sudo caddy fmt --overwrite /etc/caddy/Caddyfile
+</code></pre>
+<hr />
+<h2 id="logs-and-debugging">Logs and Debugging</h2>
+<pre><code># Tail live logs (Ctrl+C to exit)
+journalctl -u caddy -f
+
+# Show recent errors
+journalctl -u caddy --no-pager -n 50
+</code></pre>
+<hr />
+<h2 id="best-practices">Best Practices</h2>
+<ul>
+<li>
+<p>Keep the Caddyfile <strong>DRY</strong>: reuse global settings where possible</p>
+</li>
+<li>
+<p>Use <strong>wildcard certificates</strong> for subdomains if supported</p>
+</li>
+<li>
+<p>Backup your Caddyfile after major changes</p>
+</li>
+<li>
+<p>Limit HTTP (port 80) to ACME challenges and redirects only</p>
+</li>
+<li>
+<p>Monitor logs and set up alerts for certificate renewals</p>
+</li>
+</ul>
+<hr />
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li>
+<p>Official documentation: https://caddyserver.com/docs/</p>
+</li>
+<li>
+<p>ACME challenge details: https://letsencrypt.org/docs/</p>
+</li>
+<li>
+<p>Caddy GitHub: https://github.com/caddyserver/caddy</p>
+</li>
+</ul>
 
 
 
